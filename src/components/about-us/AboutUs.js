@@ -275,7 +275,7 @@ const About = () => {
                 }}
                 className="text-5xl text-white tracking-widest celestraHeroFont"
               >
-                Our College
+                Our Trust
               </motion.h1>
               <div className="h-1  ml-1 w-[30%] sm:w-[16%] lg:w-[40%]  bg-red-500 rounded-full"></div>
             </div>
@@ -290,7 +290,7 @@ const About = () => {
               }}
               className="text-2xl mb-4 tracking-widest text-white celestraHeroFont"
             >
-              Coimbatore institute of technology
+              Good Samaritan
             </motion.h5>
             <motion.p
               initial="hidden"
@@ -364,7 +364,7 @@ const About = () => {
                 }}
                 className="text-5xl text-white tracking-widest celestraHeroFont"
               >
-                Our Department
+                Good Samaritan
               </motion.h1>
               <div className="h-1  ml-1   w-[30%] sm:w-[16%] lg:w-[40%]  bg-red-500 rounded-full"></div>
             </div>
@@ -392,14 +392,10 @@ const About = () => {
               }}
               className="mb-6 text-xl font-poppins text-slate-200"
             >
-              The Department of Information of Technology was started in 2001
-              with a vision to provide a place for Innovation, Scientific
-              Discovery and New Technology to evolve as a Centre of Excellence
-              for research and learning, integrating Computer and Information
-              Sciences with Natural Sciences and Basic Engineering. The
-              department prepares over 72 graduates (UG) every year to become
-              leaders in diverse fields such as academia, industry and
-              government.
+              A Good samaritan is one who gives help and sympathy to the people
+              who wants them. He never minds whether the needy is poor or rich. He
+              even helps his enemies at their needs. Hence this name defines the "Quality of Helping"
+              to all who wants it.
             </motion.p>
             <motion.a
               initial="hidden"
@@ -427,9 +423,9 @@ const About = () => {
       </div>
       {/* Staffs section */}
 
-      <div className="bg-black mt-32 lg:mt-44 pb-10">
+      <div className="bg-black mt-32 lg:mt-44 pb-10 ">
         <div className="border-t border-red-300 mx-10 md:mx-32 pb-14"></div>
-        <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
+        <div className="mx-auto max-w-7xl px-6 text-center lg:px-8 mb-10">
           <div className="mx-auto max-w-4xl">
             <motion.h2
               initial="hidden"
@@ -442,7 +438,7 @@ const About = () => {
               }}
               className=" celestraHeroFont tracking-widest  text-3xl font-bold mb-6  text-white sm:text-4xl"
             >
-              Our heartfelt thanks goes to
+              Our Moto
             </motion.h2>
             <motion.p
               initial="hidden"
@@ -455,12 +451,70 @@ const About = () => {
               }}
               className="mt-4 text-xl text-white font-poppins tracking-wide"
             >
-              Get to know the faces behind the scenes! Our faculty members are
-              the driving force behind this event, with a wealth of experience
-              and knowledge to share.
+              Serving God through serving PUPIL
             </motion.p>
           </div>
-
+          
+          <div className="mx-auto max-w-4xl pt-14">
+            <motion.h2
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 1.1 }}
+              variants={{
+                hidden: { opacity: 0, x: -120 },
+                visible: { opacity: 1, x: 0 },
+              }}
+              className=" celestraHeroFont tracking-widest  text-3xl font-bold mb-6  text-white sm:text-4xl"
+            >
+              Vision Statement
+            </motion.h2>
+            <motion.p
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 1.3 }}
+              variants={{
+                hidden: { opacity: 0, x: 120 },
+                visible: { opacity: 1, x: 0 },
+              }}
+              className="mt-4 text-xl text-white font-poppins tracking-wide"
+            >
+              To bring Optimistic World Through PUPIL
+            </motion.p>
+          </div>
+          
+          <div className="mx-auto max-w-4xl pt-14">
+            <motion.h2
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 1.1 }}
+              variants={{
+                hidden: { opacity: 0, x: -120 },
+                visible: { opacity: 1, x: 0 },
+              }}
+              className=" celestraHeroFont tracking-widest  text-3xl font-bold mb-6  text-white sm:text-4xl"
+            >
+              Mission Statement
+            </motion.h2>
+            <motion.p
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 1.3 }}
+              variants={{
+                hidden: { opacity: 0, x: 120 },
+                visible: { opacity: 1, x: 0 },
+              }}
+              className="mt-4 text-xl text-white font-poppins tracking-wide"
+            >
+              To cultivate the quality of The Good Samaritan, The Good Pioneer,
+              The Good Shepherd, The Good Saviour and The Good Patron in every student's
+              heart
+            </motion.p>
+          </div>
+{/* 
           <ul className="mx-auto px-2 font-poppins md:px-0 mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
             {teachers.map((person) => (
               <motion.li
@@ -488,7 +542,8 @@ const About = () => {
                 </p>
               </motion.li>
             ))}
-          </ul>
+          </ul> */}
+           
         </div>
       </div>
     </div>
