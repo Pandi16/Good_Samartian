@@ -192,7 +192,7 @@ const Events = () => {
     <div className="cont">
       <div className="px-4 py-12  bg-black max-w-screen-7xl">
         <h1 className="text-3xl md:text-4xl lg:text-5xl pb-4 text-center text-white tracking-widest celestraHeroFont">
-          <span className="text-7xl text-red-500 ">C</span>elestra Gallery
+          <span className="text-7xl text-red-500 ">S</span>amaritans Gallery
         </h1>
         <Swiper
           effect={"coverflow"}

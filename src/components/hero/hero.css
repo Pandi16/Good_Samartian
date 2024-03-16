@@ -17,7 +17,7 @@
 }
 
 #hero-container {
-  background-image: url("../../assets/bg2.jpg");
+  background-image: #111;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;

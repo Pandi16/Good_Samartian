@@ -5,6 +5,7 @@ import Chronoline from "./components/chronoline/Chronoline";
 import AllEvents from "./components/all-events/AllEvents";
 import Home from "./components/home/Home";
 import AboutUs from "./components/about-us/AboutUs";
+import Laws from  "./components/laws/laws"
 
 // Technical Events
 import CelestraCoding from "./event-detail-page/technical-events/CelestraCoding";
@@ -72,6 +73,7 @@ function App() {
               <Route path="/chronoline" element={<Chronoline />} />
               <Route path="/contact-us" element={<ContactUs />} />
               <Route path="/about-us" element={<AboutUs />} />
+              <Route path="/laws" element={<Laws />} />
               {/* Technical-Events */}
               <Route
                 path="/events/celestra-coding"

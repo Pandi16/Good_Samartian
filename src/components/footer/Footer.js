@@ -18,16 +18,16 @@ const Footer = () => {
           <div className="footer-container11">
             <img src={logo} alt="Celestra Logo" className="footer-logo" />
             <h3 className="footer-title celestraHeroFont tracking-widest">
-              <span className=" text-5xl text-red-600">C</span>ELESTRA 2K23
+              <span className=" text-5xl text-red-600">G</span>OOD SAMARITANS 
             </h3>
           </div>
           <p className="about-us-text font-poppins  text-xl">
-            The Department of Information Technology at Coimbatore Institute of
-            Technology, Coimbatore hosts a highly anticipated National-level
-            Technical Symposium.
+            Promoting them to INVESTIGATE the best within
+            Assuring to EDUCATE the didactic values
+            Fostering them to ORGANIZE their life within healthy habits
           </p>
           <p className="text-2xl mt-4 text-center tracking-widest celestraHeroFont">
-            Celebrate innovation with Celestra
+            Join Us to make next Educational Revalution
           </p>
         </div>
 
@@ -75,19 +75,19 @@ const Footer = () => {
             <li className="footer-row-align footer-items">
               <BsTelephoneFill size={20} className="icons phone" />
               <span className="text-2xl lg:text-lg">
-                +91 70105 67021 , +91 79040 97972
+                +91 70223 32111 , +91 93618 88341
               </span>
             </li>
             <li className="footer-row-align footer-items">
               <MdEmail size={20} className="icons email" />
               <span className="text-2xl lg:text-lg">
-                itcelestra2k23@gmail.com
+                goodsamaritanmisssionppt@gmail.com
               </span>
             </li>
             <li className="footer-row-align footer-items address">
               <HiLocationMarker size={30} className="icons" />
               <span className="text-2xl lg:text-lg">
-                Avinashi Rd, Civil Aerodrome Post, Coimbatore, Tamil Nadu 641014
+              #56, RADHA NAGAR PALLIPAT 631207,TAMIL NADU,INDIA
               </span>
             </li>
           </ul>
@@ -100,12 +100,12 @@ const Footer = () => {
         <div className="flex items-center font-poppins">
           <span className="text-2xl lg:text-lg">
             {" "}
-            © {new Date().getFullYear()} Celestra . All Rights Reserved
+            © {new Date().getFullYear()} Samaritans . All Rights Reserved
           </span>
         </div>
         <div className=" flex items-center text-center gap-3 font-poppins text-2xl lg:text-lg">
           <p>Made with</p> <FaHeart color="red" size={25} />
-          <p> by IT Devs</p>
+          <p> by Samaritan Devs</p>
         </div>
         <div className="flex items-center gap-4">
           <a

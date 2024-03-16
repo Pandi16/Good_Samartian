@@ -167,7 +167,7 @@ const Chronoline = () => {
                 visible: { opacity: 1, x: 0 },
               }}
               src={logo}
-              alt="celestra-logo"
+              alt="GoodSamaritan-logo"
               className="lg:absolute lg:left-4 lg:top-6 w-44 md:w-52 rounded-full"
             />
           </Link>
@@ -257,6 +257,15 @@ const Chronoline = () => {
                     <VscOrganization size={20} />{" "}
                     <div className="text-red-500 text-2xl ">
                       O<span className="text-black text-xl">ur Team</span>{" "}
+                    </div>
+                  </Link>
+                  <Link
+                    to={"/laws"}
+                    className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-red-300 "
+                  >
+                    <VscOrganization size={20} />{" "}
+                    <div className="text-red-500 text-2xl ">
+                      L<span className="text-black text-xl">aws</span>{" "}
                     </div>
                   </Link>
                   <Link

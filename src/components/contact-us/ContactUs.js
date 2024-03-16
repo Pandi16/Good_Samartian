@@ -47,7 +47,7 @@ export default function ContactUs() {
     <div className="relative isolate min-h-screen bg-black">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>CELESTRA | Contact Us</title>
+        <title>Good Samaritan Mission | Contact Us</title>
       </Helmet>
       {/* Back to events button */}
       <Link
@@ -132,7 +132,7 @@ export default function ContactUs() {
               }}
               className="text-3xl font-bold text-white celestraHeroFont tracking-widest"
             >
-              Celestra 2k23
+              Good Samaritan Mission
             </motion.h2>
             <motion.p
               initial="hidden"
@@ -145,14 +145,15 @@ export default function ContactUs() {
               }}
               className="mt-6 text-lg leading-8 font-poppins text-gray-300"
             >
-              The Department of Information Technology at Coimbatore Institute
-              of Technology, Coimbatore hosts a highly anticipated
-              National-level Technical Symposium.
+              * To promote world class education
               <br />
+              * To enhance pupil's self -esteem,encourage self respect and concern for below human beings
               <br />
-              This event attracts numerous participants from various colleges
-              who showcase their talents in a range of technical, non-technical,
-              and entertaining events.
+              * To develop interpersonal skills,knowledge and values
+              <br />
+              * Encourage tghem share their knowledge to lighjten up the society and contribute to nation building
+              <br />
+              * Developing leardership skills to lead by example
             </motion.p>
             <dl className="mt-10 space-y-4 font-poppins text-base leading-7 text-gray-300">
               <motion.div
@@ -174,13 +175,13 @@ export default function ContactUs() {
                   />
                 </dt>
                 <dd>
-                  Coimbatore Institute of Technology,
+                  Good Samaritan Institution,
                   <br />
-                  Avinashi road,
+                  #56,Radha Nagar
                   <br />
-                  Civil Aerodrome post,
+                  Pallipat - 631207,
                   <br />
-                  Coimbatore - 641014
+                  Tamil Nadu, India
                 </dd>
               </motion.div>
               <motion.div
@@ -203,7 +204,7 @@ export default function ContactUs() {
                 </dt>
                 <dd>
                   <a className="hover:text-white" href="tel:+91 70105 67021">
-                    +91 70105 67021 , +91 79040 97972
+                    +91 70223 32111 , +91 93618 88341
                   </a>
                 </dd>
               </motion.div>
@@ -230,7 +231,7 @@ export default function ContactUs() {
                     className="hover:text-white"
                     href="mailto:itcelestra2k23@gmail.com"
                   >
-                    itcelestra2k23@gmail.com
+                    goodsamaritanmissionppt@gmail.com
                   </a>
                 </dd>
               </motion.div>
@@ -328,14 +329,14 @@ export default function ContactUs() {
                   htmlFor="email"
                   className="block text-md sm:text-lg tracking-wide  font-semibold leading-6 text-white"
                 >
-                  College Name
+                  Gender
                 </label>
                 <div className="mt-2.5">
                   <input
                     type="text"
                     required
-                    name="college-name"
-                    id="college"
+                    name="gender"
+                    id="gender"
                     autoComplete=""
                     className="block w-full rounded-md border-0 bg-white/5 py-2 px-3.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-red-500 sm:text-sm sm:leading-6"
                   />

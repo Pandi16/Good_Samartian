@@ -1,7 +1,8 @@
-import logo from "../../assets/logo.png";
-import CIT_Logo from "../../assets/CIT_Logo.png";
+import logo from "../../assets/MISSION_logo.png";
+import CIT_Logo from "../../assets/logo.png";
 import { GiTimeSynchronization } from "react-icons/gi";
 import { HiOutlineHome } from "react-icons/hi";
+import { GoLaw } from "react-icons/go";
 import "./hero.css";
 import { useState } from "react";
 import { AiOutlineDoubleRight } from "react-icons/ai";
@@ -113,6 +114,15 @@ const Hero = () => {
                     </div>
                   </Link>
                   <Link
+                    to={"/laws"}
+                    className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-red-300 "
+                  >
+                    <GoLaw size={20} />{" "}
+                    <div className="text-red-500 text-2xl ">
+                      L<span className="text-black text-xl">aws</span>{" "}
+                    </div>
+                  </Link>
+                  <Link
                     to={"/team"}
                     className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-red-300 "
                   >
@@ -148,10 +158,10 @@ const Hero = () => {
             }}
             className="text-xl tracking-widest md:tracking-wide sm:text-3xl lg:text-5xl mb-2 lg:mb-4"
           >
-            <span className="text-3xl md:text-4xl lg:text-6xl">C</span>oimbatore{" "}
-            <span className="text-3xl md:text-4xl lg:text-6xl">I</span>nstitute
-            of <span className="text-3xl md:text-4xl lg:text-6xl">T</span>
-            echnology
+            <span className="text-3xl md:text-4xl lg:text-6xl">G</span>ood{" "}
+            <span className="text-3xl md:text-4xl lg:text-6xl">S</span>amaritan{" "}
+            <span className="text-3xl md:text-4xl lg:text-6xl">I</span>nstitution
+            
           </motion.h2>
           <motion.h5
             initial="hidden"
@@ -163,16 +173,22 @@ const Hero = () => {
               visible: { opacity: 1, y: 0 },
             }}
             className="text-md sm:text-xl lg:text-3xl"
-          >
-            Department of{" "}
-            <span className="text-3xl md:text-4xl lg:text-5xl text-red-500">
-              I
+          > <span className="text-3xl md:text-4xl lg:text-5xl text-red-500">
+              E
             </span>
-            nformation{" "}
+            ducational and{" "}
             <span className="text-3xl md:text-4xl lg:text-5xl text-red-500">
-              T
+              S
             </span>
-            echnology
+            ocial{" "}
+            <span className="text-3xl md:text-4xl lg:text-5xl text-red-500">
+              D
+            </span>
+            evelopment
+            <span className="text-3xl md:text-4xl lg:text-5xl text-red-500">
+            T
+            </span>
+            rust
           </motion.h5>
         </div>
 
@@ -189,7 +205,7 @@ const Hero = () => {
               }}
               className="text-center text-xl dynamic-text-shadow lg:text-3xl"
             >
-              Plug in and power up for the
+            let us join forces as Samaritans to champion transformative
             </motion.h2>
             <motion.h1
               initial="hidden"
@@ -202,7 +218,7 @@ const Hero = () => {
               }}
               className="text-center text-2xl lg:text-4xl dynamic-text-shadow"
             >
-              Grand Event
+            educational reforms together
             </motion.h1>
             <motion.h1
               initial="hidden"
@@ -216,9 +232,9 @@ const Hero = () => {
               className="text-center text-4xl  dynamic-celestra-shadow lg:text-7xl tracking-wider  "
             >
               <span className="text-6xl lg:text-8xl dynamic-celestra-white-shadow-mobile lg:dynamic-celestra-white-shadow text-red-500">
-                C
+              G
               </span>
-              ELESTR<span className="text-6xl lg:text-8xl">A</span>
+              OOD SAMARITA<span className="text-6xl lg:text-8xl">N</span>
             </motion.h1>
             <motion.h1
               initial="hidden"
@@ -231,7 +247,7 @@ const Hero = () => {
               }}
               className="text-4xl lg:text-7xl tracking-widest"
             >
-              2<span className="text-red-500">k</span>23
+              M<span className="text-red-500">issio</span>N
             </motion.h1>
             <motion.div
               initial="hidden"
@@ -247,11 +263,12 @@ const Hero = () => {
                 to={"/events"}
                 className="w-[90%] lg:w-[60%] py-6 px-6 rounded-xl text-white text-xl tracking-widest bg-gradient-to-b from-[#fb3e38] via-[#fffdfd00] to-[#fb3e38]"
               >
-                <span className="text-red-500 text-3xl">J</span>oin the Exc
-                <span className="text-3xl text-red-500">it</span>ement
+                <span className="text-red-500 text-3xl">G</span>ood  
+                <span className="text-3xl text-red-500">S</span>amaritan Dossire
               </Link>
             </motion.div>
           </div>
+        
           {/* Celestra Logo */}
           <motion.img
             initial="hidden"

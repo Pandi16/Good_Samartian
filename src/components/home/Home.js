@@ -12,7 +12,7 @@ const Home = () => {
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>CELESTRA | Home</title>
+        <title>Good Samaritan Mission | Home</title>
       </Helmet>
       <Hero />
       <Venue />
