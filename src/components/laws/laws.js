@@ -17,37 +17,37 @@ import { VscOrganization } from "react-icons/vsc";
 import { TbUnlink } from "react-icons/tb";
 
 function Laws(){
-    useEffect(() => {
-        let item = document.querySelectorAll(".timeline li");
-        function isElementInViewport(el) {
-          var rect = el.getBoundingClientRect();
-          return (
-            rect.top >= 0 &&
-            rect.left >= 0 &&
-            rect.bottom <=
-              (window.innerHeight || document.documentElement.clientHeight) &&
-            rect.right <=
-              (window.innerWidth || document.documentElement.clientWidth)
-          );
-        }
-        function callback() {
-          for (let i = 0; i < item.length; i++) {
-            if (isElementInViewport(item[i])) {
-              item[i].classList.add("in-view");
-            }
-          }
-        }
-        window.addEventListener("load", callback);
-        window.addEventListener("resize", callback);
-        window.addEventListener("scroll", callback);
+    // useEffect(() => {
+    //     let item = document.querySelectorAll(".timeline li");
+    //     function isElementInViewport(el) {
+    //       var rect = el.getBoundingClientRect();
+    //       return (
+    //         rect.top >= 0 &&
+    //         rect.left >= 0 &&
+    //         rect.bottom <=
+    //           (window.innerHeight || document.documentElement.clientHeight) &&
+    //         rect.right <=
+    //           (window.innerWidth || document.documentElement.clientWidth)
+    //       );
+    //     }
+    //     function callback() {
+    //       for (let i = 0; i < item.length; i++) {
+    //         if (isElementInViewport(item[i])) {
+    //           item[i].classList.add("in-view");
+    //         }
+    //       }
+    //     }
+    //     window.addEventListener("load", callback);
+    //     window.addEventListener("resize", callback);
+    //     window.addEventListener("scroll", callback);
     
-        // Cleanup function to remove event listeners when component unmounts
-        return () => {
-          window.removeEventListener("load", callback);
-          window.removeEventListener("resize", callback);
-          window.removeEventListener("scroll", callback);
-        };
-      }, []);
+    //     // Cleanup function to remove event listeners when component unmounts
+    //     return () => {
+    //       window.removeEventListener("load", callback);
+    //       window.removeEventListener("resize", callback);
+    //       window.removeEventListener("scroll", callback);
+    //     };
+    //   }, []);
       const [open, setOpen] = useState(false);
     return(
         <div>
@@ -55,7 +55,7 @@ function Laws(){
                 <meta charSet="utf-8" />
                 <title>Good Samaritan Mission | Laws</title>
             </Helmet>
-            <div className="timeline font-poppins">
+            <div className="font-poppins">
                 <nav className="flex items-center justify-between md:px-4">
                 <Link to={"/"}>
                     <motion.img
@@ -201,21 +201,42 @@ function Laws(){
                 </motion.p>
 
                 <h2 className="text-white celestraHeroFont text-center text-4xl tracking-widest mb-20">
-                <span className="text-5xl text-red-600">M</span>arch 17
+                <span className="text-5xl text-red-600">D</span>early Beloved
                 </h2>
                 {/* Chronoline Container */}
                 {/* March 17 Events */}
-                <div>
-                    <img src='' alt='' />
+                <div className='laws-container '>
+                    <ul className='laws-list'>
+                        <li className='law'>You shall love your neighbor as yourself.</li>
+                        <li className='law'>You shall not take vengeance, nor bear any grudge against the children of your people; but you shall love your neighbor as yourself.</li>
+                        <li className='law'>Honor your father and your mother.</li>
+                        <li className='law'>You shall not murder.</li>
+                        <li className='law'>You shall not commit adultery.</li>
+                        <li className='law'>You shall not steal.</li>
+                        <li className='law'>You shall not give false testimony against your neighbor.</li>
+                        <li className='law'>Learn to do well. Seek justice, Relieve the oppressed, judge the fatherless, plead for the widow.</li>
+                        <li className='law'>Don't withhold good from those to whom it is due, when it is in the power of your hand to do it.</li>
+                        <li className='law'>Don't say to your neighbor. "Go, and come again, Tomorrow I will give it to you." When you have it by you.</li>
+                        <li className='law'>Owe no one anything, except to love one another.</li>
+                        <li className='law'>You shall not wrong one another.</li>
+                        <li className='law'>But let your 'yes' be 'yes' and your 'No'be 'no, Whatever is more than these is of the evil one.</li>
+                        <li className='law'>Don't resist him who is evil; but whoever strikes you on your right cheek turn to him the other also.</li>
+                        <li className='law'>Love your enemies, bless those who curse you, do good to those who hate you, and pray for those who mistreat you and persecute you</li>
+                        <li className='law'>Be careful that you don't do your charitable giving before men, to be seen by them.</li>
+                        <li className='law'>But when you do merciful deeds, don't let your left hand know what your right hand does.</li>
+                        <li className='law'>For if you forgive men their trespasses, your heavenly Father will also forgive you.</li>
+                        <li className='law'>But don't forget to be doing good and sharing.</li>
+                        <li className='law'>Give to everyone who asks you, and don't ask him who takes away your goods to give them back again.</li>
+                        <li className='law'>But love Your enemies, and do good, and lend, expecting nothing back: and your reward will be great.</li>
+                        <li className='law'>Therefore as you would like people to do to you, do exactly so to them.</li>
+                    </ul>
                 </div>
-                
             </div>
-            <div>
-
-            </div>
+            
         </div> 
     )
 }
+
 
 
 export default Laws;

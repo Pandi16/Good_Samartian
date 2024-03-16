@@ -12,13 +12,16 @@ import { IoIosArrowForward } from "react-icons/io";
 import { GiBrightExplosion } from "react-icons/gi";
 
 // Events Gallery Images
-import AnimeQuiz from "../../assets/event-images/animequiz.jpg";
-import Dart from "../../assets/games-images/offline/dart.jpg";
-import CelestraCoding from "../../assets/event-images/celestra-coding.jpg";
-import Workshop from "../../assets/event-images/workshop.jpg";
-import Valorant from "../../assets/event-images/valorantLogo2.jpg";
-import OnlineGamesImg from "../../assets/games-images/online/online-games.jpg";
-import OfflineGamesImg from "../../assets/games-images/offline/offline-games.jpg";
+import image1 from "../../assets/gallery-images/1.jpg";
+import image2 from "../../assets/gallery-images/2.jpg";
+import image3 from "../../assets/gallery-images/3.jpg";
+import image4 from "../../assets/gallery-images/4.jpg";
+import image5 from "../../assets/gallery-images/5.jpg";
+import image6 from "../../assets/gallery-images/6.jpg";
+import image7 from "../../assets/gallery-images/7.jpg";
+import image8 from "../../assets/gallery-images/8.jpg";
+import image9 from "../../assets/gallery-images/9.jpg";
+
 import { Link } from "react-router-dom";
 
 const eventsList = [
@@ -38,7 +41,7 @@ const eventsList = [
         elestra Coding
       </h2>
     ),
-    image: CelestraCoding,
+    image: image1,
     description:
       "Are you a passionate coder looking for an opportunity to showcase your skills? If yes, then join us for our upcoming Competitive Coding Challenge!",
     path: "/events/celestra-coding",
@@ -59,7 +62,7 @@ const eventsList = [
         nime Quiz
       </h2>
     ),
-    image: AnimeQuiz,
+    image: image2,
     description:
       "Are you ready for the ultimate anime showdown? Round one of our Anime Quiz event will test your knowledge with 20 challenging questions. Write down your answers on the provided sheet and prove you're a true otaku!",
     path: "/events/anime-quiz",
@@ -80,7 +83,7 @@ const eventsList = [
         alorant
       </h2>
     ),
-    image: Valorant,
+    image: image3,
     description:
       "Step into the near-future world of Valorant and experience heart-pumping action and intense strategy with your team. Choose your unique agent with special abilities and compete in a tactical shooter game that will test your skills and leave you wanting more.",
     path: "/events/valorant",
@@ -101,7 +104,7 @@ const eventsList = [
         art
       </h2>
     ),
-    image: Dart,
+    image: image4,
     description:
       "Get ready to hit the bullseye and unleash your inner champion with our dart game event! Whether you're a seasoned pro or a beginner, come and join the fun as we throw darts and take aim at the target.",
     path: "/games/offline",
@@ -122,7 +125,7 @@ const eventsList = [
         orkshop
       </h2>
     ),
-    image: Workshop,
+    image: image5,
     description:
       "DevOps is the combination of cultural philosophies, practices, and tools that increases an organisation’s ability to deliver applications and services at high velocity.",
     path: "/events/workshop",
@@ -143,7 +146,7 @@ const eventsList = [
         nline Games
       </h2>
     ),
-    image: OnlineGamesImg,
+    image: image6,
     description:
       "Discover new horizons and challenge yourself with the ultimate online games experience!",
     path: "/games/online",
@@ -164,7 +167,49 @@ const eventsList = [
         ffline Games
       </h2>
     ),
-    image: OfflineGamesImg,
+    image: image7,
+    description:
+      "Step away from the screens and enjoy the timeless pleasure of offline games that never go out of style!",
+    path: "/games/offline",
+  },
+  {
+    id: 8,
+    name: (
+      <h2 className="text-2xl mb-2 tracking-widest text-center">
+        {" "}
+        <span className="text-4xl text-red-600 tracking-widest">O</span>
+        ffline Games
+      </h2>
+    ),
+    hoverName: (
+      <h2 className="text-2xl mb-3 tracking-widest">
+        {" "}
+        <span className="text-4xl text-red-500 tracking-widest">O</span>
+        ffline Games
+      </h2>
+    ),
+    image: image8,
+    description:
+      "Step away from the screens and enjoy the timeless pleasure of offline games that never go out of style!",
+    path: "/games/offline",
+  },
+  {
+    id: 9,
+    name: (
+      <h2 className="text-2xl mb-2 tracking-widest text-center">
+        {" "}
+        <span className="text-4xl text-red-600 tracking-widest">O</span>
+        ffline Games
+      </h2>
+    ),
+    hoverName: (
+      <h2 className="text-2xl mb-3 tracking-widest">
+        {" "}
+        <span className="text-4xl text-red-500 tracking-widest">O</span>
+        ffline Games
+      </h2>
+    ),
+    image: image9,
     description:
       "Step away from the screens and enjoy the timeless pleasure of offline games that never go out of style!",
     path: "/games/offline",

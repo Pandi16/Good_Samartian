@@ -33,27 +33,27 @@ import narendaran from "../../assets/team-images/design-team/narendaran.jpg";
 
 const boardMembers = [
   {
-    name: "Karthick S",
-    role: "Chairman",
+    name: "LITHISH D",
+    role: "PRESIDENT",
     imageUrl: karthiImg,
   },
   {
-    name: "Rishi Ragavendar D",
-    role: "President",
+    name: "SURESH BABU",
+    role: "PRESIDENT",
     imageUrl: rishiImg,
   },
   {
-    name: "Sri Sakthi B",
-    role: "Vice President",
+    name: "CHITTI BABU",
+    role: "VICE PRESIDENT",
     imageUrl: sriSakthiImg,
   },
   {
-    name: "Adithya A",
-    role: "Treasurer",
+    name: "RAJESH BABU",
+    role: "PRESIDENT",
     imageUrl: sriAdityaImg,
   },
   {
-    name: "Arun Kumar V",
+    name: "SHRAVANTHI",
     role: "Treasurer",
     imageUrl: arunKumarImg,
   },

@@ -1,4 +1,39 @@
-
-.Laws{
+.laws-container{
     color:white;
+    background-color: red;
+    text-align:center;
 }
+.laws-list{
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+.law{
+    color:white;
+    padding: 10px 0;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media only screen and (max-width: 768px) {
+    .law {
+      font-size: 16px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .law {
+      font-size: 14px;
+    }
+  }
