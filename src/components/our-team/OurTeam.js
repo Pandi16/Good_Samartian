@@ -1,20 +1,18 @@
-import Navbar from "../../common/Navbar";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { motion } from "framer-motion";
-import GradientAvatar from "../../assets/team-images/personAvatar1.png";
-import { GiTimeBomb } from "react-icons/gi";
-import { TiLocation } from "react-icons/ti";
 import logo from "../../assets/logo.png";
 import { HiOutlineHome } from "react-icons/hi";
 import { useState } from "react";
 import { AiOutlineDoubleRight } from "react-icons/ai";
 import { FaTeamspeak } from "react-icons/fa";
-import { SiEventstore, SiRiotgames } from "react-icons/si";
 import { VscOrganization } from "react-icons/vsc";
 import { TbUnlink } from "react-icons/tb";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import { GiTimeSynchronization } from "react-icons/gi";
+import { MdGroups3 } from "react-icons/md";
+import { TfiAgenda } from "react-icons/tfi";
+import { GiMedalSkull } from "react-icons/gi";
+
 
 // Board Members
 import arunprasathImg from "../../assets/team-images/arun_prasath.jpeg";
@@ -26,6 +24,7 @@ import hemaVarshiniImg from "../../assets/team-images/hema_varshini.png";
 import rajeshbabuImg from "../../assets/team-images/rajeshbabu_k.png";
 import avatar from "../../assets/team-images/personAvatar.png";
 import vinilImg from "../../assets/team-images/VINIL_KC.png";
+import harishImg from "../../assets/team-images/harish_v.png";
 
 
 const boardMembers = [
@@ -92,7 +91,7 @@ const boardMembers = [
   {
     name: "HARISH",
     role: "PRESIDENT",
-    imageUrl: avatar,
+    imageUrl: harishImg,
   },
   {
     name: "MADHAVAN",

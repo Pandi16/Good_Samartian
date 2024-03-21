@@ -8,7 +8,7 @@ import AboutUs from "./components/about-us/AboutUs";
 import Laws from  "./components/laws/laws"
 
 // Technical Events
-import CelestraCoding from "./event-detail-page/technical-events/CelestraCoding";
+import CelestraCoding from "./event-detail-page/CelestraCoding";
 import BugBusters from "./event-detail-page/technical-events/BugBusters";
 import TechnicalQuiz from "./event-detail-page/technical-events/TechnicalQuiz";
 import WebMasters from "./event-detail-page/technical-events/WebMasters";

@@ -65,7 +65,7 @@ const eventsList = [
     image: image2,
     description:
       "Are you ready for the ultimate anime showdown? Round one of our Anime Quiz event will test your knowledge with 20 challenging questions. Write down your answers on the provided sheet and prove you're a true otaku!",
-    path: "/events/anime-quiz",
+    path: "/events/celestra-coding",
   },
   {
     id: 3,
@@ -86,7 +86,7 @@ const eventsList = [
     image: image3,
     description:
       "Step into the near-future world of Valorant and experience heart-pumping action and intense strategy with your team. Choose your unique agent with special abilities and compete in a tactical shooter game that will test your skills and leave you wanting more.",
-    path: "/events/valorant",
+    path: "/events/celestra-coding",
   },
   {
     id: 4,
@@ -107,7 +107,7 @@ const eventsList = [
     image: image4,
     description:
       "Get ready to hit the bullseye and unleash your inner champion with our dart game event! Whether you're a seasoned pro or a beginner, come and join the fun as we throw darts and take aim at the target.",
-    path: "/games/offline",
+    path: "/events/celestra-coding",
   },
   {
     id: 5,
@@ -128,7 +128,7 @@ const eventsList = [
     image: image5,
     description:
       "DevOps is the combination of cultural philosophies, practices, and tools that increases an organisation’s ability to deliver applications and services at high velocity.",
-    path: "/events/workshop",
+    path: "/events/celestra-coding",
   },
   {
     id: 6,
@@ -149,7 +149,7 @@ const eventsList = [
     image: image6,
     description:
       "Discover new horizons and challenge yourself with the ultimate online games experience!",
-    path: "/games/online",
+    path: "/events/celestra-coding",
   },
   {
     id: 7,
@@ -170,7 +170,7 @@ const eventsList = [
     image: image7,
     description:
       "Step away from the screens and enjoy the timeless pleasure of offline games that never go out of style!",
-    path: "/games/offline",
+    path: "/events/celestra-coding",
   },
   {
     id: 8,
@@ -191,7 +191,7 @@ const eventsList = [
     image: image8,
     description:
       "Step away from the screens and enjoy the timeless pleasure of offline games that never go out of style!",
-    path: "/games/offline",
+    path: "/events/celestra-coding",
   },
   {
     id: 9,
@@ -212,7 +212,7 @@ const eventsList = [
     image: image9,
     description:
       "Step away from the screens and enjoy the timeless pleasure of offline games that never go out of style!",
-    path: "/games/offline",
+    path: "/events/celestra-coding",
   },
 ];
 

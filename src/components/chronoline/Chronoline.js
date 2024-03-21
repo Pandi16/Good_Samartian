@@ -8,13 +8,16 @@ import { HiOutlineHome } from "react-icons/hi";
 import { useState } from "react";
 import { AiOutlineDoubleRight } from "react-icons/ai";
 import { FaTeamspeak } from "react-icons/fa";
-import { SiEventstore, SiRiotgames } from "react-icons/si";
 import { VscOrganization } from "react-icons/vsc";
 import { TbUnlink } from "react-icons/tb";
 import { Helmet } from "react-helmet";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { GoLaw } from "react-icons/go";
+import { MdGroups3 } from "react-icons/md";
+import { TfiAgenda } from "react-icons/tfi";
+import { GiMedalSkull } from "react-icons/gi";
+
 const march17Events = [
   {
     name: "Celestra Coding",

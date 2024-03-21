@@ -7,11 +7,14 @@ import "./hero.css";
 import { useState } from "react";
 import { AiOutlineDoubleRight } from "react-icons/ai";
 import { FaTeamspeak } from "react-icons/fa";
-import { SiEventstore, SiRiotgames } from "react-icons/si";
 import { VscOrganization } from "react-icons/vsc";
 import { TbUnlink } from "react-icons/tb";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { MdGroups3 } from "react-icons/md";
+import { TfiAgenda } from "react-icons/tfi";
+import { GiMedalSkull } from "react-icons/gi";
+
 
 const Hero = () => {
   const [open, setOpen] = useState(false);
@@ -65,7 +68,7 @@ const Hero = () => {
                 initial={{ opacity: 0, scale: 0.2 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.6 }}
-                className="absolute top-14 z-100 right-0 opacity-95 w-72 h-auto bg-white rounded-lg celestraHeroFont "
+                className="absolute top-14 z-100 right-2 opacity-95 w-80 h-auto bg-white rounded-lg celestraHeroFont "
               >
                 <ul>
                   <Link
@@ -101,7 +104,35 @@ const Hero = () => {
                   >
                     <GoLaw size={20} />{" "}
                     <div className="text-red-500 text-2xl ">
-                      L<span className="text-black text-xl">aws</span>{" "}
+                      
+                      G<span className="text-black text-xl">ood Samaritan Law</span>{" "}
+                    </div>
+                  </Link>
+                  <Link
+                    to={"/team"}
+                    className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-red-300 "
+                  >
+                    <MdGroups3 size={20} />{" "}
+                    <div className="text-red-500 text-2xl ">
+                      F<span className="text-black text-xl">our Quality Houses</span>{" "}
+                    </div>
+                  </Link>
+                  <Link
+                    to={"/team"}
+                    className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-red-300 "
+                  >
+                    <TfiAgenda size={20} />{" "}
+                    <div className="text-red-500 text-2xl ">
+                      O<span className="text-black text-xl">verall Theme</span>{" "}
+                    </div>
+                  </Link>
+                  <Link
+                    to={"/team"}
+                    className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-red-300 "
+                  >
+                    <GiMedalSkull size={20} />{" "}
+                    <div className="text-red-500 text-2xl ">
+                      A<span className="text-black text-xl">wards and Batches</span>{" "}
                     </div>
                   </Link>
                   <Link

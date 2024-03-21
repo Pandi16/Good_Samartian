@@ -2,19 +2,10 @@ import React from "react";
 import "./about-us.css";
 import CitCollege from "../../assets/citImage.jpeg";
 import ItBlock from "../../assets/itBlock.jpg";
-import Anitha from "../../assets/staffs/anitha-mam.jpg";
-import Arul from "../../assets/staffs/arul-sir.jpg";
-import Devi from "../../assets/staffs/Devi_mam.jpg";
-import Geetha from "../../assets/staffs/Geetha-mam.jpg";
-import Sangeetha from "../../assets/staffs/M.Sangeetha.jpg";
-import Malarvizhi from "../../assets/staffs/malarvizhimam.jpg";
-import Murali from "../../assets/staffs/murali-sir.jpg";
-import NKK from "../../assets/staffs/nkk-sir.jpg";
-import Poornima from "../../assets/staffs/poornima-mam.jpg";
-import Principal from "../../assets/staffs/principal.jpg";
-import Rajalakshimi from "../../assets/staffs/rajalakshimi-mam.jpg";
-import Rajasree from "../../assets/staffs/Rajasree-mam.jpg";
-import Thilagavathi from "../../assets/staffs/Thilaga-mam.jpg";
+import { MdGroups3 } from "react-icons/md";
+import { TfiAgenda } from "react-icons/tfi";
+import { GiMedalSkull } from "react-icons/gi";
+
 
 // Nav imports
 import logo from "../../assets/logo.png";
@@ -31,81 +22,13 @@ import { Helmet } from "react-helmet";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
-const teachers = [
-  {
-    name: "Dr.A.Rajeswari",
-    role: "Principal",
-    imageUrl: Principal,
-  },
-  {
-    name: "Dr.N.K. Karthikeyan",
-    role: "Professor & Head of the Department",
-    imageUrl: NKK,
-  },
-  {
-    name: "Dr.M.Rajalakshmi",
-    role: "Associate Professor",
-    imageUrl: Rajalakshimi,
-  },
-  {
-    name: "Dr.M.Sangeetha",
-    role: "Associate Professor",
-    imageUrl: Sangeetha,
-  },
-  {
-    name: "Dr.N.Anithadevi",
-    role: "Assistant Professor",
-    imageUrl: Anitha,
-  },
-  {
-    name: "Dr.E.Arul",
-    role: "Assistant Professor",
-    imageUrl: Arul,
-  },
-  {
-    name: "Ms.S.Devi",
-    role: "Assistant Professor",
-    imageUrl: Devi,
-  },
-  {
-    name: "Dr.K.Malarvizhi",
-    role: "Assistant Professor",
-    imageUrl: Malarvizhi,
-  },
-  {
-    name: "Mr.C.Murale",
-    role: "Assistant Professor",
-    imageUrl: Murali,
-  },
-  {
-    name: "Dr.N.Geetha",
-    role: "Assistant Professor",
-    imageUrl: Geetha,
-  },
-  {
-    name: "Ms.G.Thilagavathi",
-    role: "Assistant Professor",
-    imageUrl: Thilagavathi,
-  },
-  {
-    name: "Ms.S.Rajasree",
-    role: "Assistant Professor",
-    imageUrl: Rajasree,
-  },
-  {
-    name: "Ms.S.Poornima",
-    role: "Assistant Professor",
-    imageUrl: Poornima,
-  },
-];
-
 const About = () => {
   const [open, setOpen] = useState(false);
   return (
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>CELESTRA | About Us</title>
+        <title>GOOD SAMARITAN MISSION | About Us</title>
       </Helmet>
       <nav className="flex items-center justify-between pb-10 md:px-4">
         <Link to={"/"}>
@@ -162,7 +85,7 @@ const About = () => {
               initial={{ opacity: 0, scale: 0.2 }}
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.6 }}
-              className="absolute top-14 z-100 right-0 opacity-95 w-72 h-auto bg-white rounded-lg celestraHeroFont "
+              className="absolute top-14 z-100 right-2 opacity-95 w-80 h-auto bg-white rounded-lg celestraHeroFont "
             >
               <ul>
                 <Link
@@ -190,9 +113,37 @@ const About = () => {
                   >
                     <GoLaw size={20} />{" "}
                     <div className="text-red-500 text-2xl ">
-                      L<span className="text-black text-xl">aws</span>{" "}
+                      
+                      G<span className="text-black text-xl">ood Samaritan Law</span>{" "}
                     </div>
-                </Link>
+                  </Link>
+                  <Link
+                    to={"/team"}
+                    className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-red-300 "
+                  >
+                    <MdGroups3 size={20} />{" "}
+                    <div className="text-red-500 text-2xl ">
+                      F<span className="text-black text-xl">our Quality Houses</span>{" "}
+                    </div>
+                  </Link>
+                  <Link
+                    to={"/team"}
+                    className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-red-300 "
+                  >
+                    <TfiAgenda size={20} />{" "}
+                    <div className="text-red-500 text-2xl ">
+                      O<span className="text-black text-xl">verall Theme</span>{" "}
+                    </div>
+                  </Link>
+                  <Link
+                    to={"/team"}
+                    className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-red-300 "
+                  >
+                    <GiMedalSkull size={20} />{" "}
+                    <div className="text-red-500 text-2xl ">
+                      A<span className="text-black text-xl">wards and Batches</span>{" "}
+                    </div>
+                  </Link>
                 <Link
                   to={"/team"}
                   className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-red-300 "

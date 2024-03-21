@@ -9,6 +9,7 @@ import { FaHeart } from "react-icons/fa";
 import { RiCustomerService2Line } from "react-icons/ri";
 import { VscCallOutgoing } from "react-icons/vsc";
 import { Link } from "react-router-dom";
+import { FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -116,17 +117,24 @@ const Footer = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://instagram.com/_celestra_2k23?igshid=YmMyMTA2M2Y="
+            href=""
           >
             <GrInstagram size={18} className="social-media" />
           </a>
-          <a target="_blank" rel="noreferrer" href="tel:+917010567021">
+          <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.facebook.com/p/Good-Samaritan-Club-India-100070283807068/?_rdr"
+        >
+          <FaFacebook size={18} className="social-media" />
+        </a>
+          <a target="_blank" rel="noreferrer" href="tel:+919361888341">
             <VscCallOutgoing size={18} className="social-media" />
           </a>
           <a
             target="_blank"
             rel="noreferrer"
-            href="mailto:itcelestra2k23@gmail.com"
+            href="mailto:goodsamaritanmissionppt@gmail.com"
           >
             <GrMail size={18} className="social-media " />
           </a>

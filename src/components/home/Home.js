@@ -4,7 +4,6 @@ import EventsGallery from "../events-gallery/EventsGallery";
 import Footer from "../footer/Footer";
 import Hero from "../hero/hero";
 import Sponsors from "../sponsors/Sponsors";
-import WorkshopSeminar from "../sponsors/WorkshopSeminar";
 import Venue from "../venue/Venue";
 
 const Home = () => {
@@ -18,7 +17,7 @@ const Home = () => {
       <Venue />
       <EventsGallery />
       <Sponsors />
-      <WorkshopSeminar />
+      {/* <WorkshopSeminar /> */}
       <Footer />
     </div>
   );

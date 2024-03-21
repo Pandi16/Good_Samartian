@@ -3,18 +3,19 @@ import "./laws.css";
 import {Link} from "react-router-dom";
 import {motion} from "framer-motion";
 import {Helmet} from "react-helmet";
-import {useEffect,useState} from "react";
+import {useState} from "react";
 import logo from "../../assets/logo.png";
 //import lawsImage from "";
-import { GiTimeBomb } from "react-icons/gi";
-import { TiLocation } from "react-icons/ti";
 
 import { HiOutlineHome } from "react-icons/hi";
 import { AiOutlineDoubleRight } from "react-icons/ai";
 import { FaTeamspeak } from "react-icons/fa";
-import { SiEventstore, SiRiotgames } from "react-icons/si";
 import { VscOrganization } from "react-icons/vsc";
 import { TbUnlink } from "react-icons/tb";
+import { MdGroups3 } from "react-icons/md";
+import { TfiAgenda } from "react-icons/tfi";
+import { GiMedalSkull } from "react-icons/gi";
+
 
 function Laws(){
     // useEffect(() => {
