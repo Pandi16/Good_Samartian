@@ -55,7 +55,7 @@ function Laws(){
                 <meta charSet="utf-8" />
                 <title>Good Samaritan Mission | Laws</title>
             </Helmet>
-            <div className="font-poppins">
+            <div className="font-poppins lawscontainer">
                 <nav className="flex items-center justify-between md:px-4">
                 <Link to={"/"}>
                     <motion.img

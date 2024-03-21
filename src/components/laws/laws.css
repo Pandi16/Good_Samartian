@@ -1,7 +1,7 @@
 .laws-container{
     color:white;
-    background-color: red;
-    text-align:center;
+    text-align:left;
+    padding-left:70px;
 }
 .laws-list{
     list-style-type: none;
@@ -9,9 +9,23 @@
 }
 
 .law{
-    color:white;
-    padding: 10px 0;
-    animation: fadeIn 0.5s ease-in-out;
+  color:white;
+  padding: 10px 0;
+  animation: fadeIn 0.5s ease-in-out;
+  position: relative;
+}
+
+.law::before {
+  content: "•"; /* Use a custom bullet point */
+  color: #ffcc00; /* Set the color of the bullet point */
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  left: -20px;
+  font-size: 25px;
+}
+.lawscontainer{
+  margin-bottom: 50px;
 }
 
 @keyframes fadeIn {

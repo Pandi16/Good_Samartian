@@ -54,7 +54,7 @@ const boardMembers = [
   },
   {
     name: "SHRAVANTHI",
-    role: "Treasurer",
+    role: "PRESIDENT",
     imageUrl: arunKumarImg,
   },
 ];
