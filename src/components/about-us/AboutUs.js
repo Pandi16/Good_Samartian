@@ -15,6 +15,7 @@ import Principal from "../../assets/staffs/principal.jpg";
 import Rajalakshimi from "../../assets/staffs/rajalakshimi-mam.jpg";
 import Rajasree from "../../assets/staffs/Rajasree-mam.jpg";
 import Thilagavathi from "../../assets/staffs/Thilaga-mam.jpg";
+
 // Nav imports
 import logo from "../../assets/logo.png";
 import { GiTimeSynchronization } from "react-icons/gi";
@@ -25,7 +26,7 @@ import { FaTeamspeak } from "react-icons/fa";
 import { SiEventstore, SiRiotgames } from "react-icons/si";
 import { VscOrganization } from "react-icons/vsc";
 import { TbUnlink } from "react-icons/tb";
-
+import { GoLaw } from "react-icons/go";
 import { Helmet } from "react-helmet";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
@@ -174,34 +175,6 @@ const About = () => {
                   </div>
                 </Link>
                 <Link
-                  to={"/about-us"}
-                  className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-red-300 "
-                >
-                  <TbUnlink size={20} />{" "}
-                  <div className="text-red-500 text-2xl ">
-                    A<span className="text-black text-xl">bout Us</span>{" "}
-                  </div>
-                </Link>
-                <Link
-                  to={"/events"}
-                  className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-red-300 "
-                >
-                  <SiEventstore size={20} />{" "}
-                  <div className="text-red-500 text-2xl ">
-                    E<span className="text-black text-xl">vents</span>{" "}
-                  </div>
-                </Link>
-                <Link
-                  to={"/games/online"}
-                  href="/games/online"
-                  className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-red-300 "
-                >
-                  <SiRiotgames size={20} />{" "}
-                  <div className="text-red-500 text-2xl ">
-                    G<span className="text-black text-xl">ames</span>{" "}
-                  </div>
-                </Link>
-                <Link
                   to={"/chronoline"}
                   className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-red-300 "
                 >
@@ -209,6 +182,16 @@ const About = () => {
                   <div className="text-red-500 text-2xl ">
                     C<span className="text-black text-xl">hronoline</span>{" "}
                   </div>
+
+                </Link>
+                <Link
+                    to={"/laws"}
+                    className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-red-300 "
+                  >
+                    <GoLaw size={20} />{" "}
+                    <div className="text-red-500 text-2xl ">
+                      L<span className="text-black text-xl">aws</span>{" "}
+                    </div>
                 </Link>
                 <Link
                   to={"/team"}

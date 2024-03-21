@@ -30,15 +30,15 @@ const eventsList = [
     name: (
       <h2 className="text-2xl mb-2 tracking-widest text-center">
         {" "}
-        <span className="text-4xl text-red-600 tracking-widest">C</span>
-        elestra Coding
+        <span className="text-4xl text-red-600 tracking-widest">G</span>
+        RADUATION CEREMONY
       </h2>
     ),
     hoverName: (
       <h2 className="text-2xl mb-3 tracking-widest">
         {" "}
-        <span className="text-4xl text-red-500 tracking-widest">C</span>
-        elestra Coding
+        <span className="text-4xl text-red-500 tracking-widest">G</span>
+        RADUATION CEREMONY
       </h2>
     ),
     image: image1,
@@ -51,15 +51,15 @@ const eventsList = [
     name: (
       <h2 className="text-2xl mb-2 tracking-widest text-center">
         {" "}
-        <span className="text-4xl text-red-600 tracking-widest">A</span>
-        nime Quiz
+        <span className="text-4xl text-red-600 tracking-widest">W</span>
+        orld Record RVH
       </h2>
     ),
     hoverName: (
       <h2 className="text-2xl mb-3 tracking-widest">
         {" "}
-        <span className="text-4xl text-red-500 tracking-widest">A</span>
-        nime Quiz
+        <span className="text-4xl text-red-500 tracking-widest">W</span>
+        rld Record RVH
       </h2>
     ),
     image: image2,
@@ -72,15 +72,15 @@ const eventsList = [
     name: (
       <h2 className="text-2xl mb-2 tracking-widest text-center">
         {" "}
-        <span className="text-4xl text-red-600 tracking-widest">V</span>
-        alorant
+        <span className="text-4xl text-red-600 tracking-widest">W</span>
+        orld Record 2
       </h2>
     ),
     hoverName: (
       <h2 className="text-2xl mb-3 tracking-widest">
         {" "}
-        <span className="text-4xl text-red-500 tracking-widest">V</span>
-        alorant
+        <span className="text-4xl text-red-500 tracking-widest">W</span>
+        orld Record 2
       </h2>
     ),
     image: image3,
@@ -93,15 +93,15 @@ const eventsList = [
     name: (
       <h2 className="text-2xl mb-2 tracking-widest text-center">
         {" "}
-        <span className="text-4xl text-red-600 tracking-widest">D</span>
-        art
+        <span className="text-4xl text-red-600 tracking-widest">Y</span>
+        outhful Haven
       </h2>
     ),
     hoverName: (
       <h2 className="text-2xl mb-3 tracking-widest">
         {" "}
-        <span className="text-4xl text-red-500 tracking-widest">D</span>
-        art
+        <span className="text-4xl text-red-500 tracking-widest">Y</span>
+        outhful Haven
       </h2>
     ),
     image: image4,
@@ -135,15 +135,15 @@ const eventsList = [
     name: (
       <h2 className="text-2xl mb-2 tracking-widest text-center">
         {" "}
-        <span className="text-4xl text-red-600 tracking-widest">O</span>
-        nline Games
+        <span className="text-4xl text-red-600 tracking-widest">S</span>
+        amaritans Love Towards Society
       </h2>
     ),
     hoverName: (
       <h2 className="text-2xl mb-3 tracking-widest">
         {" "}
-        <span className="text-4xl text-red-500 tracking-widest">O</span>
-        nline Games
+        <span className="text-4xl text-red-500 tracking-widest">S</span>
+        amaritans Love Towards Society
       </h2>
     ),
     image: image6,
@@ -156,15 +156,15 @@ const eventsList = [
     name: (
       <h2 className="text-2xl mb-2 tracking-widest text-center">
         {" "}
-        <span className="text-4xl text-red-600 tracking-widest">O</span>
-        ffline Games
+        <span className="text-4xl text-red-600 tracking-widest">S</span>
+        amaritans at Orphange
       </h2>
     ),
     hoverName: (
       <h2 className="text-2xl mb-3 tracking-widest">
         {" "}
-        <span className="text-4xl text-red-500 tracking-widest">O</span>
-        ffline Games
+        <span className="text-4xl text-red-500 tracking-widest">S</span>
+        amaritans at Orphange
       </h2>
     ),
     image: image7,
@@ -177,15 +177,15 @@ const eventsList = [
     name: (
       <h2 className="text-2xl mb-2 tracking-widest text-center">
         {" "}
-        <span className="text-4xl text-red-600 tracking-widest">O</span>
-        ffline Games
+        <span className="text-4xl text-red-600 tracking-widest">A</span>
+        lumni Meet 2K18
       </h2>
     ),
     hoverName: (
       <h2 className="text-2xl mb-3 tracking-widest">
         {" "}
-        <span className="text-4xl text-red-500 tracking-widest">O</span>
-        ffline Games
+        <span className="text-4xl text-red-500 tracking-widest">A</span>
+        lumni Meet 2K18
       </h2>
     ),
     image: image8,
@@ -198,15 +198,15 @@ const eventsList = [
     name: (
       <h2 className="text-2xl mb-2 tracking-widest text-center">
         {" "}
-        <span className="text-4xl text-red-600 tracking-widest">O</span>
-        ffline Games
+        <span className="text-4xl text-red-600 tracking-widest">S</span>
+        amaritans at ANM
       </h2>
     ),
     hoverName: (
       <h2 className="text-2xl mb-3 tracking-widest">
         {" "}
-        <span className="text-4xl text-red-500 tracking-widest">O</span>
-        ffline Games
+        <span className="text-4xl text-red-500 tracking-widest">S</span>
+        amaritans at ANM
       </h2>
     ),
     image: image9,

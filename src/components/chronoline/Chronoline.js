@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "./chronoline.css";
 import { GiTimeBomb } from "react-icons/gi";
+
 import { TiLocation } from "react-icons/ti";
 import logo from "../../assets/logo.png";
 import { HiOutlineHome } from "react-icons/hi";
@@ -13,7 +14,7 @@ import { TbUnlink } from "react-icons/tb";
 import { Helmet } from "react-helmet";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-
+import { GoLaw } from "react-icons/go";
 const march17Events = [
   {
     name: "Celestra Coding",
@@ -233,21 +234,12 @@ const Chronoline = () => {
                     </div>
                   </Link>
                   <Link
-                    to={"/events"}
+                    to={"/laws"}
                     className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-red-300 "
                   >
-                    <SiEventstore size={20} />{" "}
+                    <GoLaw size={20} />{" "}
                     <div className="text-red-500 text-2xl ">
-                      E<span className="text-black text-xl">vents</span>{" "}
-                    </div>
-                  </Link>
-                  <Link
-                    to={"/games/online"}
-                    className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-red-300 "
-                  >
-                    <SiRiotgames size={20} />{" "}
-                    <div className="text-red-500 text-2xl ">
-                      G<span className="text-black text-xl">ames</span>{" "}
+                      L<span className="text-black text-xl">aws</span>{" "}
                     </div>
                   </Link>
                   <Link
@@ -257,15 +249,6 @@ const Chronoline = () => {
                     <VscOrganization size={20} />{" "}
                     <div className="text-red-500 text-2xl ">
                       O<span className="text-black text-xl">ur Team</span>{" "}
-                    </div>
-                  </Link>
-                  <Link
-                    to={"/laws"}
-                    className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-red-300 "
-                  >
-                    <VscOrganization size={20} />{" "}
-                    <div className="text-red-500 text-2xl ">
-                      L<span className="text-black text-xl">aws</span>{" "}
                     </div>
                   </Link>
                   <Link

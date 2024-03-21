@@ -134,24 +134,6 @@ function Laws(){
                             </div>
                         </Link>
                         <Link
-                            to={"/events"}
-                            className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-red-300 "
-                        >
-                            <SiEventstore size={20} />{" "}
-                            <div className="text-red-500 text-2xl ">
-                            E<span className="text-black text-xl">vents</span>{" "}
-                            </div>
-                        </Link>
-                        <Link
-                            to={"/games/online"}
-                            className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-red-300 "
-                        >
-                            <SiRiotgames size={20} />{" "}
-                            <div className="text-red-500 text-2xl ">
-                            G<span className="text-black text-xl">ames</span>{" "}
-                            </div>
-                        </Link>
-                        <Link
                             to={"/team"}
                             className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-red-300 "
                         >

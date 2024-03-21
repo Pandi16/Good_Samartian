@@ -58,6 +58,11 @@ const Footer = () => {
               </Link>
             </li>
             <li className="footer-items  ">
+              <Link to={"/chronoline"} className="footer-links">
+                <span>L</span>aws
+              </Link>
+            </li>
+            <li className="footer-items  ">
               <Link to={"/team"} className="footer-links">
                 <span>O</span>ur
                 <span className=" ml-2">T</span>eam

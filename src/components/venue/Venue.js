@@ -15,7 +15,7 @@ const Venue = () => {
             <div className=" text-white celestraHeroFont">
               <h2 className="text-md tracking-widest">
                 {" "}
-                <span className="text-2xl text-red-500">D</span>ate
+                <span className="text-2xl text-red-500">I</span>NVESTIGATE
               </h2>
               <p className="text-sm tracking-widest">17-18 March 2023</p>
             </div>
@@ -28,7 +28,7 @@ const Venue = () => {
             <div className=" text-white celestraHeroFont">
               <h2 className="text-md tracking-widest">
                 {" "}
-                <span className="text-2xl text-red-500">V</span>enue
+                <span className="text-2xl text-red-500">E</span>DUCATE
               </h2>
               <p className="text-sm tracking-widest">CIT - Coimbatore</p>
             </div>
@@ -41,7 +41,7 @@ const Venue = () => {
             <div className=" text-white celestraHeroFont">
               <h2 className="text-md tracking-widest">
                 {" "}
-                <span className="text-2xl text-red-500">E</span>vents{" "}
+                <span className="text-2xl text-red-500">O</span>RGANIZE{" "}
               </h2>
               <p className="text-sm tracking-wider">Twenty plus</p>
             </div>
@@ -63,6 +63,7 @@ const Venue = () => {
         </li>
       </ul>
     </div>
+
   );
 };
 
